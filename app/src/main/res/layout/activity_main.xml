@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/orange"
+    tools:context="swapnil.com.shop4u.MainActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/dbitlogo"
+        android:src="@drawable/me"
+        android:padding="@dimen/activity_horizontal_margin"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/dbit" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Swapnil Naik"
+        android:textSize="30dp"
+        android:gravity="center_horizontal"
+        android:id="@+id/dbit"
+        android:textColor="@color/colorblack"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Presents"
+        android:padding="@dimen/activity_horizontal_margin"
+        android:textSize="25dp"
+        android:gravity="center_horizontal"
+        android:id="@+id/presents"
+        android:layout_below="@+id/dbit"
+        android:textColor="@color/colorblack"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="A Fully User Friendly and Interactive Online Shopping Application."
+        android:padding="@dimen/activity_horizontal_margin"
+        android:textSize="18dp"
+        android:gravity="center_horizontal"
+        android:id="@+id/line"
+        android:layout_below="@+id/presents"
+        android:textColor="@color/colorblack"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:id="@+id/button2"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/line"
+        android:layout_alignEnd="@+id/line"
+        android:onClick="nextscreen"
+        />
+</RelativeLayout>

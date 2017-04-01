@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Shop4U</string>
+    <string name="shoping">Available Items</string>
+    <string name="lenovo">Lenovo Vibe K5   -   Rs. 6999</string>
+    <string name="samsung">samsung galaxy S7   -   Rs. 56,000</string>
+    <string name="LG">LG efficient refrigerator   -   Rs. 15,599</string>
+    <string name="selectbutton">Add to Cart</string>
+    <string name="result"></string>
+</resources>
